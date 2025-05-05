@@ -6,8 +6,7 @@ from langchain_qdrant import QdrantVectorStore
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
-import json
-import pprint
+
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY") 
